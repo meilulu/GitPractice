@@ -16,17 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"1111111");
-    
-    NSLog(@"2222222");
-    
 
-    NSLog(@"分支111");
-
-    NSLog(@"分支2");
-
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"点击" style:UIBarButtonItemStyleDone target:self action:@selector(dorightAction)];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"点击" style:UIBarButtonItemStyleDone target:self action:@selector(doLeftAction)];
 }
 
+- (void)dorightAction {
+    
+}
 
+- (void)doLeftAction {
+    
+}
 @end
