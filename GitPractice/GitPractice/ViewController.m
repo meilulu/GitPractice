@@ -24,6 +24,7 @@
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"点击" style:UIBarButtonItemStyleDone target:self action:@selector(doLeftAction)];
     
     NSLog(@"11111");
+    NSLog(@"333333");
 }
 
 - (void)dorightAction {
