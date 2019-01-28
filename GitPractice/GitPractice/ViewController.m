@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "LeftViewController.h"
 @interface ViewController ()
 
 @end
@@ -28,6 +28,6 @@
 }
 
 - (void)doLeftAction {
-    
+    [self.navigationController pushViewController:[LeftViewController new] animated:true];
 }
 @end
